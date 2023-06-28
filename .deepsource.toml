@@ -57,6 +57,19 @@ name = "ruby"
 [[analyzers]]
 name = "javascript"
 
+  [analyzers.meta]
+  plugins = [
+    "angular",
+    "react",
+    "vue",
+    "angularjs"
+  ]
+  environment = [
+    "nodejs",
+    "jquery",
+    "mongo"
+  ]
+
 [[analyzers]]
 name = "docker"
 
